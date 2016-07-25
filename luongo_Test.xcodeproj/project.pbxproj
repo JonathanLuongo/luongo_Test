@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E5BFE3B91D469F1000620236 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5BFE3B81D469F1000620236 /* AppDelegate.swift */; };
+		E5BFE3BB1D469F1000620236 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5BFE3BA1D469F1000620236 /* ViewController.swift */; };
+		E5BFE3BE1D469F1000620236 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5BFE3BC1D469F1000620236 /* Main.storyboard */; };
+		E5BFE3C01D469F1000620236 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E5BFE3BF1D469F1000620236 /* Assets.xcassets */; };
+		E5BFE3C31D469F1000620236 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5BFE3C11D469F1000620236 /* LaunchScreen.storyboard */; };
+		E5BFE3CE1D469F1000620236 /* luongo_TestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5BFE3CD1D469F1000620236 /* luongo_TestTests.swift */; };
+		E5BFE3D91D469F1000620236 /* luongo_TestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5BFE3D81D469F1000620236 /* luongo_TestUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E5BFE3CA1D469F1000620236 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E5BFE3AD1D469F1000620236 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E5BFE3B41D469F1000620236;
+			remoteInfo = luongo_Test;
+		};
+		E5BFE3D51D469F1000620236 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E5BFE3AD1D469F1000620236 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E5BFE3B41D469F1000620236;
+			remoteInfo = luongo_Test;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E5BFE3B51D469F1000620236 /* luongo_Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = luongo_Test.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E5BFE3B81D469F1000620236 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E5BFE3BA1D469F1000620236 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E5BFE3BD1D469F1000620236 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E5BFE3BF1D469F1000620236 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E5BFE3C21D469F1000620236 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E5BFE3C41D469F1000620236 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E5BFE3C91D469F1000620236 /* luongo_TestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = luongo_TestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E5BFE3CD1D469F1000620236 /* luongo_TestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = luongo_TestTests.swift; sourceTree = "<group>"; };
+		E5BFE3CF1D469F1000620236 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E5BFE3D41D469F1000620236 /* luongo_TestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = luongo_TestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E5BFE3D81D469F1000620236 /* luongo_TestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = luongo_TestUITests.swift; sourceTree = "<group>"; };
+		E5BFE3DA1D469F1000620236 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E5BFE3B21D469F1000620236 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E5BFE3C61D469F1000620236 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E5BFE3D11D469F1000620236 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E5BFE3AC1D469F1000620236 = {
+			isa = PBXGroup;
+			children = (
+				E5BFE3B71D469F1000620236 /* luongo_Test */,
+				E5BFE3CC1D469F1000620236 /* luongo_TestTests */,
+				E5BFE3D71D469F1000620236 /* luongo_TestUITests */,
+				E5BFE3B61D469F1000620236 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E5BFE3B61D469F1000620236 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E5BFE3B51D469F1000620236 /* luongo_Test.app */,
+				E5BFE3C91D469F1000620236 /* luongo_TestTests.xctest */,
+				E5BFE3D41D469F1000620236 /* luongo_TestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E5BFE3B71D469F1000620236 /* luongo_Test */ = {
+			isa = PBXGroup;
+			children = (
+				E5BFE3B81D469F1000620236 /* AppDelegate.swift */,
+				E5BFE3BA1D469F1000620236 /* ViewController.swift */,
+				E5BFE3BC1D469F1000620236 /* Main.storyboard */,
+				E5BFE3BF1D469F1000620236 /* Assets.xcassets */,
+				E5BFE3C11D469F1000620236 /* LaunchScreen.storyboard */,
+				E5BFE3C41D469F1000620236 /* Info.plist */,
+			);
+			path = luongo_Test;
+			sourceTree = "<group>";
+		};
+		E5BFE3CC1D469F1000620236 /* luongo_TestTests */ = {
+			isa = PBXGroup;
+			children = (
+				E5BFE3CD1D469F1000620236 /* luongo_TestTests.swift */,
+				E5BFE3CF1D469F1000620236 /* Info.plist */,
+			);
+			path = luongo_TestTests;
+			sourceTree = "<group>";
+		};
+		E5BFE3D71D469F1000620236 /* luongo_TestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E5BFE3D81D469F1000620236 /* luongo_TestUITests.swift */,
+				E5BFE3DA1D469F1000620236 /* Info.plist */,
+			);
+			path = luongo_TestUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E5BFE3B41D469F1000620236 /* luongo_Test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E5BFE3DD1D469F1000620236 /* Build configuration list for PBXNativeTarget "luongo_Test" */;
+			buildPhases = (
+				E5BFE3B11D469F1000620236 /* Sources */,
+				E5BFE3B21D469F1000620236 /* Frameworks */,
+				E5BFE3B31D469F1000620236 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = luongo_Test;
+			productName = luongo_Test;
+			productReference = E5BFE3B51D469F1000620236 /* luongo_Test.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E5BFE3C81D469F1000620236 /* luongo_TestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E5BFE3E01D469F1000620236 /* Build configuration list for PBXNativeTarget "luongo_TestTests" */;
+			buildPhases = (
+				E5BFE3C51D469F1000620236 /* Sources */,
+				E5BFE3C61D469F1000620236 /* Frameworks */,
+				E5BFE3C71D469F1000620236 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E5BFE3CB1D469F1000620236 /* PBXTargetDependency */,
+			);
+			name = luongo_TestTests;
+			productName = luongo_TestTests;
+			productReference = E5BFE3C91D469F1000620236 /* luongo_TestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E5BFE3D31D469F1000620236 /* luongo_TestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E5BFE3E31D469F1000620236 /* Build configuration list for PBXNativeTarget "luongo_TestUITests" */;
+			buildPhases = (
+				E5BFE3D01D469F1000620236 /* Sources */,
+				E5BFE3D11D469F1000620236 /* Frameworks */,
+				E5BFE3D21D469F1000620236 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E5BFE3D61D469F1000620236 /* PBXTargetDependency */,
+			);
+			name = luongo_TestUITests;
+			productName = luongo_TestUITests;
+			productReference = E5BFE3D41D469F1000620236 /* luongo_TestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E5BFE3AD1D469F1000620236 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Luongo, Jonathan C.";
+				TargetAttributes = {
+					E5BFE3B41D469F1000620236 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					E5BFE3C81D469F1000620236 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = E5BFE3B41D469F1000620236;
+					};
+					E5BFE3D31D469F1000620236 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = E5BFE3B41D469F1000620236;
+					};
+				};
+			};
+			buildConfigurationList = E5BFE3B01D469F1000620236 /* Build configuration list for PBXProject "luongo_Test" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E5BFE3AC1D469F1000620236;
+			productRefGroup = E5BFE3B61D469F1000620236 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E5BFE3B41D469F1000620236 /* luongo_Test */,
+				E5BFE3C81D469F1000620236 /* luongo_TestTests */,
+				E5BFE3D31D469F1000620236 /* luongo_TestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E5BFE3B31D469F1000620236 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5BFE3C31D469F1000620236 /* LaunchScreen.storyboard in Resources */,
+				E5BFE3C01D469F1000620236 /* Assets.xcassets in Resources */,
+				E5BFE3BE1D469F1000620236 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E5BFE3C71D469F1000620236 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E5BFE3D21D469F1000620236 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E5BFE3B11D469F1000620236 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5BFE3BB1D469F1000620236 /* ViewController.swift in Sources */,
+				E5BFE3B91D469F1000620236 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E5BFE3C51D469F1000620236 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5BFE3CE1D469F1000620236 /* luongo_TestTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E5BFE3D01D469F1000620236 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5BFE3D91D469F1000620236 /* luongo_TestUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E5BFE3CB1D469F1000620236 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E5BFE3B41D469F1000620236 /* luongo_Test */;
+			targetProxy = E5BFE3CA1D469F1000620236 /* PBXContainerItemProxy */;
+		};
+		E5BFE3D61D469F1000620236 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E5BFE3B41D469F1000620236 /* luongo_Test */;
+			targetProxy = E5BFE3D51D469F1000620236 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E5BFE3BC1D469F1000620236 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E5BFE3BD1D469F1000620236 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E5BFE3C11D469F1000620236 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E5BFE3C21D469F1000620236 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E5BFE3DB1D469F1000620236 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E5BFE3DC1D469F1000620236 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E5BFE3DE1D469F1000620236 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = luongo_Test/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "luonj004.luongo-Test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E5BFE3DF1D469F1000620236 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = luongo_Test/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "luonj004.luongo-Test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		E5BFE3E11D469F1000620236 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = luongo_TestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "luonj004.luongo-TestTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/luongo_Test.app/luongo_Test";
+			};
+			name = Debug;
+		};
+		E5BFE3E21D469F1000620236 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = luongo_TestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "luonj004.luongo-TestTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/luongo_Test.app/luongo_Test";
+			};
+			name = Release;
+		};
+		E5BFE3E41D469F1000620236 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = luongo_TestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "luonj004.luongo-TestUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = luongo_Test;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		E5BFE3E51D469F1000620236 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = luongo_TestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "luonj004.luongo-TestUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = luongo_Test;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E5BFE3B01D469F1000620236 /* Build configuration list for PBXProject "luongo_Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E5BFE3DB1D469F1000620236 /* Debug */,
+				E5BFE3DC1D469F1000620236 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E5BFE3DD1D469F1000620236 /* Build configuration list for PBXNativeTarget "luongo_Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E5BFE3DE1D469F1000620236 /* Debug */,
+				E5BFE3DF1D469F1000620236 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E5BFE3E01D469F1000620236 /* Build configuration list for PBXNativeTarget "luongo_TestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E5BFE3E11D469F1000620236 /* Debug */,
+				E5BFE3E21D469F1000620236 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E5BFE3E31D469F1000620236 /* Build configuration list for PBXNativeTarget "luongo_TestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E5BFE3E41D469F1000620236 /* Debug */,
+				E5BFE3E51D469F1000620236 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E5BFE3AD1D469F1000620236 /* Project object */;
+}
